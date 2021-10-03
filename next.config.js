@@ -1,3 +1,14 @@
+// module.exports = {
+//   reactStrictMode: true,
+//   images:{
+//     domains:['http://localhost:1337']
+//   }
+// }
+
+
 module.exports = {
-  reactStrictMode: true,
+  images: {
+    loader: 'imgix',
+    path: 'http://localhost:1337',
+  },
 }
