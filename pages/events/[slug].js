@@ -54,7 +54,7 @@ export default function EventPage({evt}) {
         <h3>Performers:</h3>
         <p>{evt.performers}</p>
         <h3>Description:</h3>
-        <p>{evt.desription}</p>
+        <p>{evt.description}</p>
         <h3>Venue: {evt.venue}</h3>
         <p>{evt.address}</p>
 
